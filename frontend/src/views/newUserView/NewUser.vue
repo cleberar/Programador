@@ -27,7 +27,7 @@
           type="password"
         ></b-form-input>
 
-        <b-button block variant="primary" class="button-enter">Block Level Button</b-button>
+       <b-button block variant="primary" class="button-enter">Create acount</b-button>
       </div>
       
       <div class="enter-link">
