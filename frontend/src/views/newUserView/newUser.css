@@ -1,0 +1,87 @@
+.new-user {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* backdrop-filter: blur(2px); */
+    /* background-size: 100%; */
+    /* background-size: 60vw; */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 25rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 1px 1px 10px 2px black;
+    border-radius: 10px;
+}
+
+.image-logo {
+    width: 10rem;
+    margin-bottom: 2.5rem;
+}
+
+#input-live {
+    background-color: transparent;
+    color: white;
+}
+
+#input-live::after {
+    background-color: transparent;     
+}
+
+#input-live::placeholder {
+    color: white;
+}
+
+.input-select {
+    width: 100%;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 4px;
+    /* margin-bottom: 5rem; */
+}
+
+.input-password {
+    background-color: transparent;
+}
+
+#input-default {
+    background-color: transparent;
+    width: 100%;
+    margin-top: 1rem;
+    color: white;
+}
+
+#input-default::placeholder {
+    color: white;
+}
+
+.button-enter {
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #F6DE18 !important;
+    border: none !important;
+}
+
+.enter-link {
+    /* background-color: red; */
+    width: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 1rem;
+}
